@@ -1,7 +1,7 @@
 using System.ServiceModel;
 namespace VideoStore.Contracts
 {
-	[ServiceContract]
+	[ServiceContract(Namespace = "http://ht.com/VideoStore/VideoLookup")]
 	public interface IVideoLookup
 	{
 		[OperationContract]
